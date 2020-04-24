@@ -1,5 +1,5 @@
 #include <rclcpp/rclcpp.hpp>
-#include "minimal_node.hpp"
+#include "minimal_class_node/minimal_node.hpp"
 
 MinimalNode::MinimalNode(const rclcpp::NodeOptions& options)
 : MinimalNode("", options) {}

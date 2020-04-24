@@ -33,6 +33,8 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
+include_directories(include)
+
 add_executable(minimal_node_test
     src/main.cpp
     src/minimal_node.cpp
